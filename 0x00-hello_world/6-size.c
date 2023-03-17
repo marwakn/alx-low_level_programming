@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-printf("size of char is : ",sizeOf(char));
-printf("size of char is : ",sizeOf(int));
-printf("size of char is : ",sizeOf(long));
-printf("size of char is : ",sizeOf(float));
+printf("size of char is : %d byte(s)\n ",sizeOf(char));
+printf("size of int is : %d byte(s)\n ",sizeOf(int));
+printf("size of long is : %d byte(s)\n ",sizeOf(long));
+printf("size of float is : %d byte(s)\n ",sizeOf(float));
 return (0);
 }
