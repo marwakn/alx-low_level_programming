@@ -1,14 +1,15 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description:it's a c program that execute a file
+ * Description: 'the program's description'
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-printf("size of char is : %d byte(s)\n", sizeOf(char));
-printf("size of int is : %d byte(s)\n", sizeOf(int));
-printf("size of long is : %d byte(s)\n", sizeOf(long));
-printf("size of float is : %d byte(s)\n", sizeOf(float));
+printf("Size of a char: %d byte(s)\n", sizeof(char));
+printf("Size of an int: %d byte(s)\n", sizeof(int));
+printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+printf("Size of a float: %d byte(s)\n", sizeof(float));
 return (0);
 }
