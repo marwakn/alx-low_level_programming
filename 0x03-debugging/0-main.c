@@ -1,4 +1,5 @@
 #include "main.h"
+#include "main.c"
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
