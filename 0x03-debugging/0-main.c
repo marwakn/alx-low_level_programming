@@ -1,8 +1,4 @@
 #include "main.h"
-#include "main.c"
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
 /**
 * main - tests function that prints if integer is positive or negative
 * Return: 0
